@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.parent-container {
+    position: relative;
+    background-color: beige;
+    border: 2px solid black;
+    width: 75vw;
+    height: 275vw;
+    padding: 5px;
+    margin: 15px;
+}
+
+.child {
+    padding: 25px;
+}
+
+.child1 {
+    position: static;
+    top: 250px
+    right: 250px;
+    border: 2px solid red;
+    background-color: red;
+}
+
+.child2 {
+    position: relative;
+    top: 25px
+    left: 25px;
+    border: 2px solid blueviolet;
+    background-color: blueviolet;
+}
+
+.child3 {
+    top: 0px;
+    left: 0px
+    border: 2px solid green;
+    background-color: green;
+}
+
+.child4 {
+top: 0px;
+left:0px;
+    border: 2px solid teal;
+    background-color: teal;
+}
+
+.child5 {
+    position: sticky;
+    top: 100px;
+    border: 2px solid gray;
+    background-color: gray;
+}
+
+.display-container{
+    margin-top: 2em;
+}
+
+.block-container{
+    border: 2px solid black;
+    margin: 5px;
+
+    display: inline
+}
